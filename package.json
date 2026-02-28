@@ -1,0 +1,14 @@
+{
+  "name": "github-and-anitygravity",
+  "version": "1.0.0",
+  "description": "Project started with AntiGravity and GitHub",
+  "main": "test-firestore.js",
+  "scripts": {
+    "test": "node test-firestore.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

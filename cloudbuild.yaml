@@ -1,5 +1,11 @@
 steps:
 - name: 'ubuntu'
   args: ['echo', 'Deployment Successful!']
+- name: 'node'
+  entrypoint: 'npm'
+  args: ['install']
+- name: 'node'
+  entrypoint: 'node'
+  args: ['test-firestore.js']
 options:
   logging: CLOUD_LOGGING_ONLY
