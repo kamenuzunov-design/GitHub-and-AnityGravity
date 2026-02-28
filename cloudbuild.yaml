@@ -1,3 +1,5 @@
 steps:
 - name: 'ubuntu'
   args: ['echo', 'Deployment Successful!']
+options:
+  logging: CLOUD_LOGGING_ONLY
